@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
+    <meta name="renderer" content="webkit">
+    <style>
+        body{
+            background: linear-gradient(to bottom right, #007466, #007060, #006355, #006355);
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            padding: 96px 8px 32px 8px;
+            margin: 0px;
+        }
+        button{
+            border: none;
+            color: white;
+            border-radius: 12px;
+            padding: 10px 32px 10px 32px;
+            background: orange;
+            font-style: bold;
+            width: 256px;
+        }
+        button:active{
+            background: darkorange;
+        }
+        button:not(:active){
+            transition: background 0.3s;
+        }
+        button[disabled]{
+            background: none;
+            border: 1px white solid;
+            opacity: 0.4;
+        }
+        [big]{
+            font-size: 3em;
+            
+        }
+        center{
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h1 big>Let's Forge This</h1>
+        <button onclick="window.location.replace('#dnd')">Domain name distribution</button><br><br>
+        <button disabled="">Virtual hosts</button>
+    </center>
+    <!--div>
+        <h1 id="dnd">Domain name distribution</h1>
+        <ul>
+            <li>lets.us.kg</li>
+            <li>thi.us.kg</li>
+            <li>米哈游.us.kg (by others)</li>
+            <li>homo114514.us.kg (by others)</li>
+            <li>plays.us.kg (by others)</li>
+        </ul>
+    </div-->
+</body>
+
+</html>
